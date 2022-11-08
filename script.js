@@ -4,7 +4,6 @@ var input1=documentGetElementById("task1"),
     counter=0;
     button.addEventListener("click",
     function(){
-        )
         if(input1.value=="GitHub"){
         counter++
         console.log(counter);
@@ -14,5 +13,5 @@ var input1=documentGetElementById("task1"),
         alert("Неправильно")
         }
         
-    }
+    })
     
